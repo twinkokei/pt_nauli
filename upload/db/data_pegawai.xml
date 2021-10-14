@@ -1,0 +1,495 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+
+<Styles>
+ <Style ss:ID="Default" ss:Name="Normal">
+  <Alignment ss:Vertical="Bottom"/>
+  <Borders/>
+  <Font/>
+  <Interior/>
+  <NumberFormat/>
+  <Protection/>
+ </Style>
+ <Style ss:ID="s27">
+  <Font x:Family="Swiss" ss:Color="#0000FF" ss:Bold="1"/>
+ </Style>
+ <Style ss:ID="s21">
+  <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+ </Style>
+ <Style ss:ID="s22">
+  <NumberFormat ss:Format="yyyy\-mm\-dd\ hh:mm:ss"/>
+ </Style>
+ <Style ss:ID="s23">
+  <NumberFormat ss:Format="hh:mm:ss"/>
+ </Style>
+</Styles>
+
+ <Worksheet ss:Name="Sheet1">
+  <ss:Table>
+   <ss:Row>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">karyawan_id</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">name</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">email</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">phone_number</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">address</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">img_pegawai</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">qr_code</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">tgl_masuk</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">tgl_keluar</Data></ss:Cell>
+    <ss:Cell  ss:StyleID="s27"><Data ss:Type="String">status</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202101</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">YOHANIS TOY</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">082139325925</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL NGINDEN 1 NO. 19 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">YOHANIS_TOY-202101.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202101-asd.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-08-03T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202102</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">BENONI SAMUEL PATTIRANE</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">085646339372</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">CIPTA MENANGGAL BLOK 6/D-1 RT 002/ RW 005 KOTA SUR</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">BENONI_SAMUEL_PATTIRANE-202102.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202102-1234.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-07-08T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202103</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">BANGUN MARPAUNG</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">bangunmarpaung@gmail.com</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081331611221</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">PONDOK BENOWO INDAH BLOK AU 01 KELURAHAN BABAT JER</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">BANGUN_MARPAUNG-202103.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202103-BANGUN MARPAUNG.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-03-10T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202104</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">BAYU LESTARI MARPAUNG</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">tarymarpaung1401@gmail.com</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">082289781046</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">PONDOK BENOWO INDAH BLOK AU 01 KELURAHAN BABAT JER</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">BAYU_LESTARI_MARPAUNG-202104.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202104-BAYU LESTARI MARPAUNG.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-03-10T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202105</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ANDI FATKHUR ROKHMAN</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">085707777476</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">DUSUN PUNGGING RT 003/ RW 004 KAB. MOJOKERTO
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ANDI_FATKHUR_ROKHMAN-202105.jpeg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202105-ANDI FATKHUR ROKHMAN.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-07-08T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202107</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">RIPALJA TAMBA</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081265585446</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">PONDOK BENOWO INDAH BLOK 00/18 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">RIPALJA_TAMBA-202107.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202106-RIPALJA TAMBA.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-07-26T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202109</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">RUDI SIHOMBING</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">082110597293</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. KENDUNG JAYA 1/14 RT 001/ RW 006 KOTA SURABAYA</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">RUDI_SIHOMBING-202109.jpeg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202108-RUDI SIHOMBING.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-08-09T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202110</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">DIAH NENG PRATIWI</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">083834004523</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">DSN. PLOSOKEREP RT 003/ RW 001 KEL. BLEBER KEC. KR</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">DIAH_NENG_PRATIWI-202110.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202110-DIAH NENG PRATIWI.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-21T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202111</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">AGUSTINUS MARSEVEN</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0859171462675</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. TAMBAK MAYOR II NO. 23 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">AGUSTINUS_MARSEVEN-202111.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202111-AGUSTINUS MARSEVEN.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-07-08T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202112</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">RAMOT HASURUNGA MARPAUNG</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081219153269</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">BANYU URIP NO 68 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">RAMOT_HASURUNGA_MARPAUNG-202112.jpeg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202112-RAMOT HASURUNGA MARPAUNG.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-03-08T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202113</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">CLIFF MARENDRA PAMUNGKAS</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0892380169033</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. RAYA SEMEMI KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">CLIFF_MARENDRA_PAMUNGKAS-202113.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202113-CLIFF MARENDRA PAMUNGKAS.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-04-14T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202114</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">TOGAR SILALAHI</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">085321291588</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL PAKAL TIMUR  NO 46 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">TOGAR_SILALAHI-202114.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202114-TOGAR SILALAHI.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-07-26T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202115</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">NOVI KURNIA</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">087855094123</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">WESTERN VILLAGE BLOK B 3 NO 26 RT 004/ RW RT 005 K</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">NOVI_KURNIA-202115.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202115-NOVI KURNIA.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-08-09T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202116</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ROMIL ALIANDO SIHOMBING</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081235647415</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. KENDUNG JAYA 1/14 RT 001/ RW 006 KOTA SURABAYA</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ROMIL_ALIANDO_SIHOMBING-202116.jpeg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202116-ROMIL ALIANDO SIHOMBING.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-08-09T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202117</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">AGUS SUNARTO</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">087829413752</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">DK BURAN RT 001/ RW 001 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">AGUS_SUNARTO-202117.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202117-AGUS SUNARTO.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-08-09T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202118</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">FATHUR ROZAQ</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">085733616393</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. RAYA SEMEMI KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">FATHUR_ROZAQ-202118.jpeg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202118-FATHUR ROZAQ.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-08-09T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202119</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">EBEN MAISER DJASING</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081238352166</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL NGINDEN SEMOLOWARU GG BENGKOK NO 10 A KOTA SURA</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">EBEN_MAISER_DJASING-202119.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202119-EBEN MAISER DJASING.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-08-03T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202120</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">GREGORIUS GERODA TUPEN </Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081336831209</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. MANYAR REJO GANG 10 NO 57 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">GREGORIUS_GERODA_TUPEN_-202120.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202120-GREGORIUS GERODA TUPEN .png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-08-03T00:00:00.000</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202121</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">YUSUF BAYU HENDRAWAN</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081938366889</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">PONDOK BENOWO INDAH A4/32 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">YUSUF_BAYU_HENDRAWAN-202121.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202121-YUSUF BAYU HENDRAWAN.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-06T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202122</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ACHMAD FAUZI</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">085230809427</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">SEMEMI BENOWO RT 003/ RW 004 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ACHMAD_FAUZI-202122.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202122-ACHMAD FAUZI.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-13T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202123</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ANGGIAT SINAGA</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081249758774</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. SUMBER WARAS TIMUR RT. 004/ RW.004 KEL. KALIRE</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ANGGIAT_SINAGA-202123.jpeg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202123-ANGGIAT SINAGA.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-16T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202124</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">YOEL MELIANUS MAILAU</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">082146280253</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. MAIJEN SOENGKONO GG 10 RT 001 RW 003 KOTA SURA</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">YOEL_MELIANUS_MAILAU-202124.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202124-YOEL MELIANUS MAILAU.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-06T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202125</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">MUKSIN BEKA</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">082146280253</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. MANYAR REJO GANG 10 NO 57 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">MUKSIN_BEKA-202125.jpeg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202125-MUKSIN BEKA.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-06T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202126</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ROKI RUDIYANTO KAWANGKO</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081330405505</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. MANYAR REJO GANG 10 NO 57 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ROKI_RUDIYANTO_KAWANGKO-202126.jpeg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202126-ROKI RUDIYANTO KAWANGKO.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-06T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202127</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ISAK FREDRIK MUSA</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">081336034679</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">JL. MANYAR REJO GANG 10 NO 57 KOTA SURABAYA
+</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ISAK_FREDRIK_MUSA-202127.jpeg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202127-ISAK FREDRIK MUSA.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-17T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202128</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Jack</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">123123123</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">jalan jalan</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202128-Jack.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-10T00:00:00.000</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202129</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">asdas</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">olan@gmail.co</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">123123</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaaa</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">asdas-202129.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202129-asdas.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">1970-01-01T00:00:00.000</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202130</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaa</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">123</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaaaaa</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaa-202130.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202130-aaa.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-15T00:00:00.000</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202131</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">bbbb</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">123</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaaaaaaaaa</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">bbbb-202131.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202131-bbbb.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">1970-01-01T00:00:00.000</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202132</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">cccccc</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">21312</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Jl. Walikota Mustajab No.2 - 4
+Ketabang, Kec. Gen</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">cccccc-202132.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202132-cccccc.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202133</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">bbbbbbbbb</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">22222</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">bbbbbbbbb</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaaaaaaaaaaa-202133.jpg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202133-aaaaaaaaaaaa.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">1970-01-01T00:00:00.000</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202134</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ccccccc</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">12312</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ccccccccc</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ccccccc-202134.jpg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202134-ccccccc.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">1970-01-01T00:00:00.000</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202135</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Chabibah</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">chabibah1996@gmail.com</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">088221766194</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Jl. Martadireja RT01/RW06 kec. Purwokerto Barat 53</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Chabibah-202135.jpg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202135-dddddd.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">1925-06-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202136</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Chabibah said</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">chabibahsaid@gmail.com</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">0895383072888</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Jalan jendral Soedirman no. 96 Banyumas</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">Chabibah_said-202136.jpg</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202136-Chabibah said.png</Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-19T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202137</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaaaaaaaaaa</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">111111111111111</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaaaaaaaaaa</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaaaaaaaaaa-202137.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202137-aaaaaaaaaaa.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell ss:StyleID="s21"><Data ss:Type="DateTime">2021-09-20T00:00:00.000</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">0</Data></ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell><Data ss:Type="Number">202138</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">aaaaaaaaaa</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">1111111111111</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">ffffffffff</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String">202138-aaaaaaaaaa.png</Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="String"></Data></ss:Cell>
+    <ss:Cell><Data ss:Type="Number">1</Data></ss:Cell>
+   </ss:Row>
+  </ss:Table>
+ </Worksheet>
+</Workbook>
